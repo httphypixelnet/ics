@@ -12,12 +12,12 @@ interface IDiscord {
     discriminator: string
     public_flags: number
     flags: number
-    banner: any
+    banner: unknown
     accent_color: number
     global_name: string
-    avatar_decoration_data: any
+    avatar_decoration_data: unknown
     banner_color: string
-    clan: any
+    clan: null | string
 }
 
 export default function Discord({ children }: { children: React.ReactNode }) {
