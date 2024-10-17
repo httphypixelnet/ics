@@ -67,6 +67,7 @@ export default function Portfolio() {
         <section className="mb-12">
           <h2 className="text-2xl font-bold mb-4">About Me</h2>
           <p className={darkMode ? "text-gray-300" : "text-gray-700"}>
+            I use he/<b>HIM</b> pronouns.
             I&apos;m a (mostly) full stack web dev who specializes in TypeScript, ReactJS, and Java. I&apos;ve also used C, C++, and Rust for writing desktop applications, and CLI tools, and Python for an AI/ML classifier.
           </p>
         </section>
@@ -78,16 +79,18 @@ export default function Portfolio() {
               <CardHeader>
                 <CardTitle>Project 1</CardTitle>
                 <CardDescription className={darkMode ? "text-gray-300" : ""}>
-                  A brief description of Project 1
+                  For my eigth grade science class, I made this crappy JavaScript backend for a code.org ripoff using monaco editor.
                 </CardDescription>
               </CardHeader>
               <CardContent>
                 <p className={`text-sm ${darkMode ? "text-gray-300" : "text-gray-600"}`}>
-                  Technologies used: 
+                  Technologies used: JavaScript, ExpressJS, Auth0, HTML, CSS
                 </p>
-                <Button className="mt-4" variant={darkMode ? "secondary" : "outline"}>
-                  View Project
-                </Button>
+                <Link href="https://jayess.houseofchupchik.net" target="_blank">
+                  <Button className="mt-4" variant={darkMode ? "secondary" : "outline"}>
+                    View Project
+                  </Button>
+                </Link>
               </CardContent>
             </Card>
             <Card className={darkMode ? "bg-gray-800 text-white" : ""}>
